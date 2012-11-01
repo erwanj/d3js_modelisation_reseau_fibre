@@ -1,0 +1,35 @@
+{
+"source": "1",
+"target": "5",
+"strength": "10"
+},
+{
+"source": "5",
+"target": "10",
+"strength": "10"
+},
+{
+"source": "10",
+"target": "12",
+"strength": "10"
+},
+{
+"source": "10",
+"target": "13",
+"strength": "10"
+},
+{
+"source": "10",
+"target": "14",
+"strength": "10"
+},
+{
+"source": "12",
+"target": "29",
+"strength": "10"
+},
+{
+"source": "29",
+"target": "34",
+"strength": "10"
+}

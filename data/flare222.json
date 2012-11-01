@@ -1,0 +1,62 @@
+{
+	 "name": "Fondation des parkings",
+	 "children": [
+		{
+			"name": "IT",
+			"children": [
+				{
+					 "name": "IT_rack1",
+					 "children": [
+						{
+							"name" : "10.0.22.133",
+							"children" :[
+								{"id" : "IT_rack1_1", "name": "port 0/1/1", "size": 2000},
+								{"id" : "dummy", "size": 1000, "dummy": 1}
+							]
+						},
+						{"id" : "dummy", "size": 1000, "dummy": 1}
+					 ]
+				},
+				{"id" : "dummy", "size": 1000, "dummy": 1}
+			]
+		},
+		{
+			"name": "Etoile",
+			"children": [
+				{
+					 "name": "Local Parking",
+					 "children": [
+							{
+								"name" : "Etoile Local Parking rack 1",
+								"children" : [
+									{
+										"name" : "10.0.22.135",
+										"children" :[
+											{"id" : "Etoile_Local_Parking_1", "name": "port 0/1/1", "size": 2000},
+											{"id" : "dummy", "size": 1000, "dummy": 1}
+										]
+									},
+									{"id" : "dummy", "size": 1000, "dummy": 1}
+								]
+							},
+							{
+								"name" : "Etoile Local Parking rack 2",
+								"children" : [
+									{
+										"name" : "10.0.22.136",
+										"children" :[
+											{"id" : "Etoile_Local_rack2_1", "name": "port 0/1/1", "size": 2000},
+											{"id" : "Etoile_Local_rack2_2", "name": "port 0/1/2", "size": 2000},
+											{"id" : "Etoile_Local_rack2_3", "name": "port 0/1/3", "size": 2000}
+										]
+									},
+									{"id" : "dummy", "size": 1000, "dummy": 1}
+								]
+							}
+						]
+				},
+			{"id" : "dummy", "size": 1000, "dummy": 1}
+			]
+		}
+	]
+}

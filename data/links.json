@@ -1,0 +1,140 @@
+[
+{
+"source": "IT_brocade_01",
+"target": "IT_panel_01",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "ETL_bureau_cisco_11",
+"target": "ETL_bureau_panel_module1_1",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "ETL_bureau_cisco_11",
+"target": "ETL_bureau_panel_module1_2",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "IT_brocade_01",
+"target": "IT_panel_02",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "ETL_bureau_panel_module1_1",
+"target": "IT_panel_01",
+"strength": "10",
+"type": "fibre"
+},
+{
+"source": "ETL_bureau_panel_module1_2",
+"target": "IT_panel_02",
+"strength": "10",
+"type": "fibre"
+},
+{
+"source": "ETL_bureau_panel_module2_1",
+"target": "ETL_octopus_11",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "ETL_bureau_panel_module2_2",
+"target": "ETL_octopus_12",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "ETL_bureau_san1_1",
+"target": "ETL_octopus_21",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "ETL_bureau_san1_2",
+"target": "ETL_octopus_22",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "ETL_bureau_san2_1",
+"target": "ETL_octopus_27",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "ETL_bureau_san2_2",
+"target": "ETL_octopus_26",
+"strength": "10",
+"type": "patch"
+},
+{
+"source": "ETL_octopus_11",
+"target": "ETL_octopus_21",
+"strength": "10",
+"type": "octopus"
+},
+{
+"source": "ETL_octopus_12",
+"target": "ETL_octopus_22",
+"strength": "10",
+"type": "octopus"
+},
+{
+"source": "ETL_octopus_17",
+"target": "ETL_octopus_27",
+"strength": "10",
+"type": "octopus"
+},
+{
+"source": "ETL_octopus_16",
+"target": "ETL_octopus_26",
+"strength": "10",
+"type": "octopus"
+},
+{
+"source": "ETL_ciscovideoetoile_1",
+"target": "ETL_bureau_cisco_24",
+"strength": "10",
+"type": "fibre"
+},
+{
+"source": "ETL_octopus_15",
+"target": "ETL_bureau_cisco_22",
+"strength": "10",
+"type": "fibre"
+},
+{
+"source": "ETL_octopus_14",
+"target": "ETL_bureau_cisco_12",
+"strength": "10",
+"type": "fibre"
+},
+{
+"source": "ETL_octopus_24",
+"target": "ETL_bureau_brocade10g_11",
+"strength": "10",
+"type": "fibre"
+},
+{
+"source": "ETL_octopus_25",
+"target": "ETL_bureau_brocade10g_21",
+"strength": "10",
+"type": "fibre"
+},
+{
+"source": "ETL_octopus_24",
+"target": "ETL_octopus_14",
+"strength": "10",
+"type": "octopus"
+},
+{
+"source": "ETL_octopus_25",
+"target": "ETL_octopus_15",
+"strength": "10",
+"type": "octopus"
+}
+]
